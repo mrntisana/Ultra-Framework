@@ -18,6 +18,7 @@ public class DriverManagerFactory {
             case SAFARI:
                 driverManager = new SafariDriverManager();
                 break;
+            case IE:
             default:
                 driverManager = new InternetExplorerDriverManager();
         }
